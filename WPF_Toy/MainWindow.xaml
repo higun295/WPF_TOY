@@ -9,6 +9,10 @@
         Height="450"
         mc:Ignorable="d">
 
+    <DataGrid>
+        <DataGrid.Columns />
+    </DataGrid>
+
     <Button>
         <LinearGradientBrush>
             <GradientStop Offset="1" Color="Green" />
