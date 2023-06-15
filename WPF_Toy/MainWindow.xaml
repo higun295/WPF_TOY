@@ -9,23 +9,21 @@
         Height="450"
         mc:Ignorable="d">
 
-    <DataGrid>
-        <DataGrid.Columns />
-    </DataGrid>
+    <StackPanel>
+        <Button>
+            <LinearGradientBrush>
+                <GradientStop Offset="1" Color="Green" />
+                <GradientStop Offset="0" Color="Red" />
+                <GradientStop Offset="1" Color="Blue" />
+            </LinearGradientBrush>
 
-    <Button>
-        <LinearGradientBrush>
-            <GradientStop Offset="1" Color="Green" />
-            <GradientStop Offset="0" Color="Red" />
-            <GradientStop Offset="1" Color="Blue" />
-        </LinearGradientBrush>
-
-        <Button.ContentTemplate>
-            <DataTemplate>
-                <Ellipse Width="120"
-                         Height="144"
-                         Fill="{Binding}" />
-            </DataTemplate>
-        </Button.ContentTemplate>
-    </Button>
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <Ellipse Width="120"
+                             Height="144"
+                             Fill="{Binding}" />
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+    </StackPanel>
 </Window>
