@@ -3,7 +3,6 @@ D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy.runtimeconfig.json
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy.dll
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy.pdb
-D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy.csproj.AssemblyReference.cache
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\MainWindow.g.cs
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\App.g.cs
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy_MarkupCompile.cache
