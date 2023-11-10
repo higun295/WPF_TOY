@@ -9,5 +9,9 @@ namespace WPF_Toy.Forms.UI.Units
 {
     public class SideBarMenu : ContentControl
     {
+        static SideBarMenu()
+        {
+
+        }
     }
 }
