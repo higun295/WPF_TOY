@@ -4,27 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:WPF_Toy"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:units="clr-namespace:WPF_Toy.Forms.UI.Units;assembly=WPF_Toy.Forms"
         Title="MainWindow"
         Width="800"
         Height="450"
         mc:Ignorable="d">
-
-    <Grid Background="#615f5f">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="12*" />
-        </Grid.ColumnDefinitions>
-
-        <Border Grid.Column="0"
-                Background="#322f30"
-                CornerRadius="25">
-            <StackPanel />
-        </Border>
-
-        <StackPanel Grid.Column="1" />
-
-        <Grid.Triggers>
-            <DataTrigger />
-        </Grid.Triggers>
-    </Grid>
+    <units:ShakableTextBox />
 </Window>

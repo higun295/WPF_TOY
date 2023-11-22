@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 
-2731786183
+3-1171639765
 
-5954727576
-198-200740077
-Themes\Generic.xaml;Themes\Units\SideBarMenu.xaml;
+5-1883370141
+1981723223080
+Themes\Generic.xaml;Themes\Units\ShakableTextBox.xaml;Themes\Units\SideBarMenu.xaml;
 
 False
 

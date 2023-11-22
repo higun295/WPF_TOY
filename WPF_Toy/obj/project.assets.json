@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "WPF_Toy.Forms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/WPF_Toy.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WPF_Toy.Forms.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WPF_Toy.Forms/1.0.0": {
+      "type": "project",
+      "path": "../WPF_Toy.Forms/WPF_Toy.Forms.csproj",
+      "msbuildProject": "../WPF_Toy.Forms/WPF_Toy.Forms.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "WPF_Toy.Forms >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DLIT\\.nuget\\packages\\": {},
@@ -48,7 +70,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\01_Projects\\SELF_PROJECT\\WPF\\WPF_Toy\\WPF_Toy.Forms\\WPF_Toy.Forms.csproj": {
+              "projectPath": "D:\\01_Projects\\SELF_PROJECT\\WPF\\WPF_Toy\\WPF_Toy.Forms\\WPF_Toy.Forms.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -79,7 +105,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
