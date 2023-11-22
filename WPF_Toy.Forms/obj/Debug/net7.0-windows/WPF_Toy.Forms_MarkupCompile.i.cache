@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 1981723223080
 Themes\Generic.xaml;Themes\Units\ShakableTextBox.xaml;Themes\Units\SideBarMenu.xaml;
 
-False
+True
 

@@ -9,5 +9,34 @@
         Width="800"
         Height="450"
         mc:Ignorable="d">
-    <units:ShakableTextBox />
+    <!--<units:ShakableTextBox />-->
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Border x:Name="target"
+                Grid.Row="0"
+                Width="480"
+                Margin="15">
+            <TextBox Text="text" />
+            <Border.Triggers>
+                <EventTrigger RoutedEvent="Border.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation AutoReverse="True"
+                                             RepeatBehavior="Forever"
+                                             Storyboard.TargetName="target"
+                                             Storyboard.TargetProperty="(Border.Width)"
+                                             To="0.0"
+                                             Duration="0:0:3" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Border.Triggers>
+        </Border>
+    </Grid>
 </Window>

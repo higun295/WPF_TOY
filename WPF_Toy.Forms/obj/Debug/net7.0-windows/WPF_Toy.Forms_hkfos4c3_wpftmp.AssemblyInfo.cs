@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WPF_Toy")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WPF_Toy.Forms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36a256d1d444983c2f1cceae044fcc31b423dee5")]
-[assembly: System.Reflection.AssemblyProductAttribute("WPF_Toy")]
-[assembly: System.Reflection.AssemblyTitleAttribute("WPF_Toy")]
+[assembly: System.Reflection.AssemblyProductAttribute("WPF_Toy.Forms")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WPF_Toy.Forms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

@@ -19,3 +19,7 @@ D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy.genruntimeconfig.cache
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\ref\WPF_Toy.dll
 D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy.sourcelink.json
+D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy.Forms.dll
+D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\bin\Debug\net7.0-windows\WPF_Toy.Forms.pdb
+D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy.csproj.AssemblyReference.cache
+D:\01_Projects\SELF_PROJECT\WPF\WPF_Toy\WPF_Toy\obj\Debug\net7.0-windows\WPF_Toy.csproj.CopyComplete
