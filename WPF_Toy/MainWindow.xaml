@@ -9,7 +9,6 @@
         Width="800"
         Height="450"
         mc:Ignorable="d">
-    <!--<units:ShakableTextBox />-->
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -22,20 +21,35 @@
                 Grid.Row="0"
                 Width="480"
                 Margin="15">
-            <TextBox Text="text" />
+            <TextBox x:Name="textBox"
+                     Text="text" />
             <Border.Triggers>
-                <EventTrigger RoutedEvent="Border.Loaded">
-                    <BeginStoryboard>
-                        <Storyboard>
-                            <DoubleAnimation AutoReverse="True"
-                                             RepeatBehavior="Forever"
-                                             Storyboard.TargetName="target"
-                                             Storyboard.TargetProperty="(Border.Width)"
-                                             To="0.0"
-                                             Duration="0:0:3" />
-                        </Storyboard>
-                    </BeginStoryboard>
-                </EventTrigger>
+                <DataTrigger Binding="{Binding ElementName=textBox, Path=Text, UpdateSourceTrigger=PropertyChanged}"
+                             Value="text">
+                    <DataTrigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames RepeatBehavior="Forever"
+                                                               Storyboard.TargetName="target"
+                                                               Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.X)">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0"
+                                                          Value="0" />
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0.1"
+                                                          Value="-5" />
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0.2"
+                                                          Value="5" />
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0.3"
+                                                          Value="-5" />
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0.4"
+                                                          Value="5" />
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0.5"
+                                                          Value="0" />
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </DataTrigger.EnterActions>
+                    <DataTrigger.ExitActions />
+                </DataTrigger>
             </Border.Triggers>
         </Border>
     </Grid>
